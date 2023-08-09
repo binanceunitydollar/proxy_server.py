@@ -4,9 +4,9 @@ import random
 import time
 import ssl
 
-ip_addresses = ["199.70.1.111", "192.168.1.100", "10.0.0.5"]
+ip_addresses = ["199.70.1.111", "199.70.1.112", "199.70.1.113"]
 port = 8443  # HTTPS port
-interval_seconds = 60
+interval_seconds = 10
 
 class ProxyHandler(BaseHTTPRequestHandler):
     def do_GET(self):
