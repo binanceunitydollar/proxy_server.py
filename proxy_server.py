@@ -5,7 +5,7 @@ import time
 
 ip_addresses = ["199.70.1.111", "199.70.1.112", "199.70.1.113","199.70.1.114"]
 port = 8080
-interval_seconds = 30
+interval_seconds = 10
 
 class ProxyHandler(BaseHTTPRequestHandler):
     def do_GET(self):
